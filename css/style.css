@@ -1,0 +1,250 @@
+/* Navigation Bar */
+nav {
+    transition: background 250ms ease-in;
+    /* background-color: transparent !important; */
+}
+
+.nav-scrolled {
+    --text: black;
+    --text-inverse: white;
+    background: #fff;
+
+    box-shadow: 0 3px 20px rgba(black, 0.2);
+}
+
+.nav-link {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    margin-left: 15px;
+    color: black !important;
+}
+
+.navbar-brand {
+    font-family: astros;
+    font-size: 28px;
+    color: black;
+}
+
+.navbar-brand:hover {
+    color: black;
+}
+
+.login-button {
+    height: 40px;
+    width: 100px;
+    padding-left: 20;
+    background-color: #ff5a05;
+    color: #fff !important;
+    border-radius: 15px;
+}
+
+.login-button span {
+    padding-left: 23px;
+    text-align: center;
+}
+
+.login-button:hover {
+    background-color: black;
+}
+
+/* Jumbotron */
+
+.jumbotron {
+    background-image: url(../img/kost.jpg);
+    background-size:cover;
+    height: 730px;
+}
+
+.jumbotron img {
+    height: 400px;
+    width: 800px;
+    margin-top: 200px;
+    margin-left: -180px;
+}
+
+.display-4 {
+    color: black;
+    padding-top: 250px;
+    font-weight: 200;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+    text-align: left;
+    font-style: italic;
+    font-size: 45px;
+    margin-left: 40px;
+}
+
+.display-5 {
+    margin-top: 20px;
+    margin-left: 45px;
+    text-align: left;
+    font-size: 20px;
+}
+
+.jumbotron .display-4 span {
+    font-weight: 500;
+    font-style: normal;
+}
+
+.btn-start {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    padding-top: 10px;
+    background-color: black;
+    width: 170px;
+    height: 50px;
+    border-radius: 35px;
+    margin-top: 10px;
+    margin-left: 48px;
+}
+
+.btn-start:hover {
+    color: white;
+    background-color: #ff9523;
+}
+
+/* Our Room */
+
+.room {
+    margin-top: 60px;
+    text-align: center;
+}
+
+.room .col img {
+    height: 340px;
+    width: 280px;
+    border-radius: 40px;
+}
+
+.dot {
+    margin-top: 70px;
+    margin-left: -20px;
+}
+
+.fa {
+    margin-left: 20px;
+}
+
+.btn-room {
+    text-align: center;
+    margin-top: 30px;
+    height: 50px;
+    width: 200px;
+    background-color: #ff5a05;
+    color: #fff !important;
+    font-size: 20px;
+    border-radius: 35px;
+}
+
+.btn-room:hover {
+    background-color: black;
+}
+
+/* about */
+
+.about {
+    margin-top: 70px;
+    margin-left: 0px;
+    text-align: justify;
+}
+
+.about h1 {
+    text-align: center;
+}
+
+.row-about {
+    margin-top: 60px;
+}
+
+.about img {
+    height: 450px;
+    width: 600px;
+}
+
+/* footer */
+
+.footer {
+    margin-top: 100px;
+    height: 400px;
+    width: 100%;
+    background-color: #74c1e5;
+}
+
+.footer .container .row {
+    padding-top: 50px;
+}
+
+/* Room Hall */
+
+.btn-detail {
+    margin-left: 22px;
+    width: 75%;
+    border-radius: 10px !important;
+    margin-top: 40px;
+  }
+
+.btn-detail:hover {
+    background-color: black !important;
+}
+
+/* Multi Tab */
+.ignielMultiTab {
+    border: 0;
+    margin: 1.5rem 0;
+    padding: 0;
+  }
+  .ignielMultiTab input, .ignielMultiTab .content > div {
+    display: none;
+  }
+  .ignielMultiTab label, .ignielMultiTab .content {
+    border-style: solid;
+    border-width: 1px;
+  }
+  .ignielMultiTab input:checked + label, .ignielMultiTab .content {
+    border-color: #ddd;
+  }
+  .ignielMultiTab .label {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    max-width: calc(100vw - 2.5rem);
+    overflow: auto;
+  }
+  .ignielMultiTab label {
+    text-align: center;
+    width: 50%;
+    background-color: #ededed;
+    border-color: transparent;
+    border-bottom: 1px solid #ddd;
+    color: #666;
+    cursor: pointer;
+    display: inline-block;
+    float: left;
+    padding: .65rem 1.25rem;
+    position: relative;
+    top: 1px;
+    transition: all .3s ease;
+  }
+  .ignielMultiTab input:checked + label {
+    background-color: transparent;
+    border-bottom: 1px solid #fff;
+    color: #1d1d1d;
+    font-weight: bold;
+  }
+  .ignielMultiTab .content {
+    clear: both;
+    padding: 1.5rem 1.25rem;
+  }
+  
+  .ignielMultiTab #tab1:checked ~ .content .tab1,
+  .ignielMultiTab #tab2:checked ~ .content .tab2
+   {
+    display: block;
+  }
+
+  .detail-room {
+    margin-top: 50px;
+  }
+
+  .detail-penghuni {
+    margin-top: 50px;
+  }
